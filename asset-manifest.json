@@ -1,16 +1,31 @@
 {
   "files": {
-    "main.css": "/cmb-2022-program/static/css/main.073c9b0a.css",
-    "main.js": "/cmb-2022-program/static/js/main.3b7b15a5.js",
-    "static/js/787.ac97d293.chunk.js": "/cmb-2022-program/static/js/787.ac97d293.chunk.js",
-    "static/media/logo.svg": "/cmb-2022-program/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/cmb-2022-program/index.html",
-    "main.073c9b0a.css.map": "/cmb-2022-program/static/css/main.073c9b0a.css.map",
-    "main.3b7b15a5.js.map": "/cmb-2022-program/static/js/main.3b7b15a5.js.map",
-    "787.ac97d293.chunk.js.map": "/cmb-2022-program/static/js/787.ac97d293.chunk.js.map"
+    "main.css": "/static/css/main.25a26cc8.css",
+    "main.js": "/static/js/main.8069daf5.js",
+    "static/media/text-background.jpg": "/static/media/text-background.281ab28ea08c437c8ecb.jpg",
+    "static/media/solid-stone.png": "/static/media/solid-stone.79eb8bcbcbc5967f3b7b.png",
+    "static/media/president-out.png": "/static/media/president-out.87371aa782ec60f9c79f.png",
+    "static/media/stone.png": "/static/media/stone.c9e05b99bf974a41822b.png",
+    "static/media/ocr.png": "/static/media/ocr.761f1df4b58a2ff0a807.png",
+    "static/media/buttery.png": "/static/media/buttery.56ae23b75fd08d8c5669.png",
+    "static/media/carpark.png": "/static/media/carpark.340d74774a484f4aefd4.png",
+    "static/media/chapel.png": "/static/media/chapel.4afd039c1a7c3f31cc3d.png",
+    "static/media/lloyd-room.png": "/static/media/lloyd-room.bc77e8b75fa3cda742ac.png",
+    "static/media/map.jpg": "/static/media/map.a609f1976f4d96b9ec88.jpg",
+    "static/media/portrait-room.png": "/static/media/portrait-room.a2e161aeceff40894ffe.png",
+    "static/media/third-court.png": "/static/media/third-court.4a7fdaa54224323a0a8f.png",
+    "static/media/first-court.png": "/static/media/first-court.90ae3785bf0a09d4ca0a.png",
+    "static/media/mulberry-tree.png": "/static/media/mulberry-tree.51e5399982c9f7b09729.png",
+    "static/media/formal-hall.png": "/static/media/formal-hall.4a350e01be95d2fcead0.png",
+    "static/media/second-court.png": "/static/media/second-court.c256e6094abb53dcb95d.png",
+    "static/media/fellows-garden.png": "/static/media/fellows-garden.0fb30798121a859edad9.png",
+    "static/media/classico.ttf": "/static/media/classico.bb6fb99af19a8c2e5eed.ttf",
+    "index.html": "/index.html",
+    "main.25a26cc8.css.map": "/static/css/main.25a26cc8.css.map",
+    "main.8069daf5.js.map": "/static/js/main.8069daf5.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.3b7b15a5.js"
+    "static/css/main.25a26cc8.css",
+    "static/js/main.8069daf5.js"
   ]
 }
