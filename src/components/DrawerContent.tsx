@@ -38,7 +38,7 @@ const body = [
     target: "_blank"
   },
   {
-    label: "Plain text program",
+    label: "Plain text programme",
     link: process.env.PUBLIC_URL + "/programme.pdf",
     icon: <Article />,
     target: "_blank"
