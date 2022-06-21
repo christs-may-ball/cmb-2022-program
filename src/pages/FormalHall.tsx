@@ -11,7 +11,7 @@ const { body, subtitle } = program.formalHall;
 const FormalHall = () => (
   <TextBase>
     <Box height="100%" display="flex" flexDirection="column" textAlign="center">
-      <ProgramHeading img={formalHall} mb={1} />
+      <ProgramHeading img={formalHall} mb={1} maxWidth={400} />
       <Box
         pb={6}
         flex={1}

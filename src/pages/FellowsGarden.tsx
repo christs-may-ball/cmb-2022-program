@@ -10,7 +10,7 @@ const { headings, schedule } = program.fellowsGarden;
 
 const FellowsGarden = () => (
   <TextBase>
-    <ProgramHeading img={fellowsGrarden} mb={1} />
+    <ProgramHeading img={fellowsGrarden} mb={1} maxWidth={400} />
     <Box mb={3}>
       {headings.map((text, i) => (
         <Text variant="body2" textAlign="center" key={i}>

@@ -10,7 +10,7 @@ const body = program.secondCourt;
 
 const SecondCourt = () => (
   <TextBase>
-    <ProgramHeading img={secondCourt} mb={3} />
+    <ProgramHeading img={secondCourt} mb={3} maxWidth={400} />
     <Box display="flex" flexDirection="column" textAlign="center">
       {body.map(({ name, description, time }, i) => (
         <Box px={2} mb={1} key={i}>

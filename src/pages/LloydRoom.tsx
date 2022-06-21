@@ -11,7 +11,7 @@ const { body } = program.lloydRoom;
 const LloydRoom = () => (
   <TextBase>
     <Box height="100%" display="flex" flexDirection="column" textAlign="center">
-      <ProgramHeading img={lloydRoom} mb={1} />
+      <ProgramHeading img={lloydRoom} mb={1} maxWidth={300} />
       <Box
         pb={6}
         flex={1}

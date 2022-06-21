@@ -10,7 +10,7 @@ const { heading, schedule } = program.thirdCourt;
 
 const ThirdCourt = () => (
   <TextBase>
-    <ProgramHeading img={thirdCourt} mb={1} />
+    <ProgramHeading img={thirdCourt} mb={1} maxWidth={400} />
     <Text variant="h6" textAlign="center" mb={5}>
       {heading}
     </Text>

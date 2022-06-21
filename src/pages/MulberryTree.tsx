@@ -10,7 +10,7 @@ const { body, main } = program.mulberryTree;
 
 const MulberryTree = () => (
   <TextBase>
-    <ProgramHeading img={mulberryTree} mb={5} />
+    <ProgramHeading img={mulberryTree} mb={5} maxWidth={400} />
     <Box display="flex" flexDirection="column" textAlign="center">
       {body.map((text, i) => (
         <Box px={2} mb={3} key={i}>
