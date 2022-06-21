@@ -48,14 +48,19 @@ const toiletMarkers = [
 const sjaMarker = { position: ["20%", "45%"] };
 
 const Map = () => (
-  <Box mx="auto" flex={1} minHeight={0} mr={2}>
+  <Box mx="auto" flex={1} minHeight={0}>
     <Box
       display="flex"
       justifyContent="center"
       alignItems="stretch"
       height="100%"
     >
-      <Box position="relative" height="100%" style={{ aspectRatio: "12/17" }}>
+      <Box
+        position="relative"
+        height="100%"
+        style={{ aspectRatio: "12/17" }}
+        mr={2}
+      >
         <Box position="absolute" width="100%" height="100%" zIndex={2}>
           {mapMarkers.map(({ position: [top, left], link }, i) => (
             <AbsoluteMapMarker
