@@ -1,7 +1,7 @@
 {
   "name": "cmb-2022-program",
   "version": "0.1.0",
-  "homepage": "https://program.christsmayball.co.uk",
+  "homepage": "https://cows492.christsmayball.co.uk",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
