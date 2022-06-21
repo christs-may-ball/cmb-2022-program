@@ -60,7 +60,7 @@ const FoodFull = () => (
               </Box>
             )}
             {body.map(({ title, items }, j) => (
-              <Box mb={2}>
+              <Box mb={2} key={j}>
                 {title && (
                   <Text
                     variant="h6"

@@ -12,7 +12,7 @@ const render = ({ name, description, time }: any) => {
   if (time) {
     return (
       <>
-        <Box display="flex">
+        <Box display="flex" textAlign="left">
           <Text variant="h5">{time}</Text>
           <Text variant="h5" ml={3}>
             {name}

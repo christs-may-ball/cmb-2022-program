@@ -13,7 +13,7 @@ const FellowsGarden = () => (
     <ProgramHeading img={fellowsGrarden} mb={1} />
     <Box mb={3}>
       {headings.map((text, i) => (
-        <Text variant="body2" textAlign="center">
+        <Text variant="body2" textAlign="center" key={i}>
           {text}
         </Text>
       ))}
