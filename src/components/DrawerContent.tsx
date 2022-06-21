@@ -11,13 +11,21 @@ import {
   ListItemText
 } from "@mui/material"
 
+import { allergenCharts } from "../assets/docs"
 import { Event } from "../types/new"
 
 const body = [
   {
     label: "President's Address",
     link: "/presidents-address",
-    icon: <Newspaper />
+    icon: <Newspaper />,
+    target: "_self"
+  },
+  {
+    label: "Food allergy details",
+    link: allergenCharts,
+    icon: <Newspaper />,
+    target: "_blank"
   }
 ];
 
@@ -34,9 +42,9 @@ const DrawerContent = ({
     bgcolor="tertiary.main"
   >
     <List>
-      {body.map(({ label, link, icon }, index) => (
+      {body.map(({ label, link, icon, target }, index) => (
         <ListItem key={label} disablePadding>
-          <ListItemButton component={Link} to={link}>
+          <ListItemButton component={Link} to={link} target={target}>
             <ListItemIcon>{icon}</ListItemIcon>
             <ListItemText primary={label} />
           </ListItemButton>
