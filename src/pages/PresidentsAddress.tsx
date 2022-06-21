@@ -1,7 +1,6 @@
 import React from "react"
 
 import { Typography } from "@mui/material"
-import { Box } from "@mui/system"
 
 import { program } from "../assets/data"
 import { president } from "../assets/img"

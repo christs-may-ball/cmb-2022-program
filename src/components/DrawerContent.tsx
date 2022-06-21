@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-import { Newspaper, TheaterComedy } from "@mui/icons-material"
+import { LunchDining, Newspaper } from "@mui/icons-material"
 import {
   Box,
   List,
@@ -11,7 +11,6 @@ import {
   ListItemText
 } from "@mui/material"
 
-import { allergenCharts } from "../assets/docs"
 import { Event } from "../types/new"
 
 const body = [
@@ -23,8 +22,8 @@ const body = [
   },
   {
     label: "Food allergy details",
-    link: allergenCharts,
-    icon: <Newspaper />,
+    link: process.env.PUBLIC_URL + "/allergen-charts.pdf",
+    icon: <LunchDining />,
     target: "_blank"
   }
 ];
