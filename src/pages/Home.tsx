@@ -6,7 +6,7 @@ import { Map } from "../components"
 
 const Home = () => (
   <>
-    <Box height={60} width="100%" bgcolor="tertiary.main"></Box>
+    <Box height={70} width="100%" bgcolor="tertiary.main"></Box>
     <Map></Map>
   </>
 );

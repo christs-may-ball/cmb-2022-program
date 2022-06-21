@@ -14,8 +14,11 @@ import {
 import { Event } from "../types/new"
 
 const body = [
-  { label: "President's Address", link: "/presidents-address" },
-  { label: "Ents", link: "/ents" }
+  {
+    label: "President's Address",
+    link: "/presidents-address",
+    icon: <Newspaper />
+  }
 ];
 
 const DrawerContent = ({
@@ -31,12 +34,10 @@ const DrawerContent = ({
     bgcolor="tertiary.main"
   >
     <List>
-      {body.map(({ label, link }, index) => (
+      {body.map(({ label, link, icon }, index) => (
         <ListItem key={label} disablePadding>
           <ListItemButton component={Link} to={link}>
-            <ListItemIcon>
-              {index % 2 === 0 ? <Newspaper /> : <TheaterComedy />}
-            </ListItemIcon>
+            <ListItemIcon>{icon}</ListItemIcon>
             <ListItemText primary={label} />
           </ListItemButton>
         </ListItem>

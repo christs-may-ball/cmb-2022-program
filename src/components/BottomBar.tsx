@@ -42,7 +42,8 @@ const BottomBar = () => {
             setValue(newValue);
           }}
           sx={{
-            backgroundColor: "tertiary.main"
+            backgroundColor: "tertiary.main",
+            height: 70
           }}
         >
           <BottomNavigationAction

@@ -9,20 +9,25 @@
     "Our headliner will be playing in the Fellows' Garden from 11.45pm, so make sure you're around for that, and do take a look into all of the little rooms around college - there are plenty of hidden surprises in store.",
     "",
     "Pippa Prendergast-Coates and Sam Grankin",
-    "Presidents 2022"
+    "Presidents 2022",
+    "",
+    "",
+    "",
+    "",
+    "Christ's May Ball 2022 would like to thank it's sponsors: Red Bull, Granny Ma's Bubble tea, Mr Flavour, Seanhanna, Hirestreet, Cambridge Tailors, and the Cambridge Satchel Company."
   ],
   "firstCourt": {
-    "heading": "Welcome Drinks - Sticks n' Sushi canapés",
+    "heading": "Welcome Drinks - Sticks 'n' Sushi canapés",
     "schedule": [
       { "time": "08:30pm", "name": "Jazz Catz" },
       { "time": "10:00pm", "name": "Breeze and Us" },
-      { "time": "01:00am", "name": "Chrst's Jazz" },
+      { "time": "01:00am", "name": "Christ's Jazz" },
       { "time": "03:15am", "name": "Emma Jazz" },
       { "time": "04:30am", "name": "Daniel Daley Sextet" }
     ]
   },
   "secondCourt": [
-    { "name": "Mr Flavour", "description": "smoothies and hot drinks" },
+    { "name": "Mr Flavour", "description": "Smoothies and hot drinks" },
     {
       "name": "Cocktail Box",
       "description": "Lethe Martini, Tequila lonian delight and more..."
@@ -41,21 +46,21 @@
     "heading": "Smokeworks BBQ - Shots Bar",
     "schedule": [
       { "time": "09:30pm", "name": "Tadkins" },
-      { "time": "00:45am", "name": "Adhiram Bibekar" },
+      { "time": "00:45am", "name": "Abhiram Bibekar" },
       { "time": "03:00am", "name": "Jordan" },
       { "time": "04:15am", "name": "Rory" }
     ]
   },
   "portraitRoom": {
     "heading": ["Selection of Wine and Grapes", "Scotch Whisky"],
-    "body": "Cassino"
+    "body": "Casino"
   },
   "mulberryTree": {
     "body": [
       "Granny Ma's Bubble Tea",
       "Gourmet cake co. Cupcakes",
       "Jack's Gelato",
-      "Sticks n' Sushi",
+      "Sticks 'n' Sushi",
       "Mademoiselle Macarons"
     ],
     "main": "Shisha + Glitter Artists"
@@ -81,9 +86,9 @@
   "chapel": {
     "heading": "Popcorn - Water - Assorted Soft Drinks",
     "schedule": [
-      { "time": "11:00pm", "name": "Percy Jackson 1" },
-      { "time": "01:15am", "name": "Percy Jackson 2" },
-      { "time": "03:15am", "name": "Mamma Mia" }
+      { "time": "10:00pm", "name": "Roman Holiday" },
+      { "time": "00:30am", "name": "Mamma Mia" },
+      { "time": "02:45am", "name": "Mamma Mia 2" }
     ]
   },
   "formalHall": {
@@ -91,23 +96,23 @@
     "subtitle": "(from Midnight until 5am)"
   },
   "carpark": [
-    { "name": "Dogems" },
-    { "name": "The Tea Pod\nCrêpes & waffles", "time": "from 02:15am" },
+    { "name": "Dodgems" },
     { "name": "Guerrilla Kitchen Bao Buns", "time": "until 01:00am" },
+    { "name": "The Tea Pod\nCrêpes & waffles", "time": "from 02:15am" },
     { "name": "Churros", "time": "until 03:00am" }
   ],
-  "buttery": {
+  "ocr": {
     "heading": "Selection of wines from Cambridge Wine Merchants",
     "schedule": [
       { "time": "23:15pm", "name": "Impronauts" },
-      { "time": "00:00am", "name": "Susie Dobson" },
+      { "time": "00:00am", "name": "Susie Dobson + Friends" },
       { "time": "01:00am", "name": "Entropies" },
       { "time": "02:15am", "name": "Andy Bucks" },
       { "time": "03:00am", "name": "Angel Wong" },
       { "time": "04:00am", "name": "Karaoke" }
     ]
   },
-  "ocr": [
+  "buttery": [
     { "name": "Chocolate Fountain" },
     {
       "time": "09:00pm",
@@ -132,10 +137,15 @@
       ]
     },
     {
-      "location": "Buttery",
+      "location": "OCR",
       "ents": [
         { "name": "Impronauts", "from": 2.7, "to": 3.5, "fontSize": 12 },
-        { "name": "Susie Dobson", "from": 3.5, "to": 4.2, "fontSize": 14 },
+        {
+          "name": "Susie Dobson + Friends",
+          "from": 3.5,
+          "to": 4.2,
+          "fontSize": 10
+        },
         { "name": "Entropies", "from": 4.5, "to": 5.5, "fontSize": 18 },
         { "name": "Andy Bucks", "from": 5.7, "to": 6.3, "fontSize": 16 },
         { "name": "Angel Wong", "from": 6.65, "to": 7.35, "fontSize": 16 },
@@ -143,7 +153,7 @@
       ]
     },
     {
-      "location": "OCR",
+      "location": "Buttery",
       "ents": [
         { "name": "Photobooth", "from": 0.5, "to": 4.5, "fontSize": 38 },
         { "name": "Life Drawing", "from": 6, "to": 8, "fontSize": 28 }
@@ -190,9 +200,9 @@
     },
     {
       "location": "Mulberry Tree",
-      "ents": [{ "name": "Shisha", "from": 0.5, "to": 8.5, "fontSize": 20 }],
+      "ents": [{ "name": "Shisha", "from": 1.5, "to": 8.5, "fontSize": 20 }],
       "ents2": [
-        { "name": "Glitter Artists", "from": 1.5, "to": 7.5, "fontSize": 20 }
+        { "name": "Glitter Artists", "from": 1.5, "to": 5.5, "fontSize": 20 }
       ]
     },
     {
@@ -203,10 +213,10 @@
           "name": "consultant, consultant",
           "from": 4.6,
           "to": 6.3,
-          "fontSize": 14
+          "fontSize": 15
         },
         { "name": "Jordan", "from": 6.5, "to": 7.3, "fontSize": 18 },
-        { "name": "Rory", "from": 7.6, "to": 8.5, "fontSize": 20 }
+        { "name": "Rory", "from": 7.6, "to": 8.5, "fontSize": 22 }
       ]
     },
     {
@@ -221,7 +231,7 @@
   "foodFull": [
     {
       "title": "First Court",
-      "headings": ["Welcome Drink", "Sticks n' Sushi canapés (V options)"],
+      "headings": ["Welcome Drink", "Sticks 'n' Sushi canapés (V options)"],
       "body": [
         { "title": "OCR", "items": ["Chocolate fountain"] },
         {
@@ -285,8 +295,8 @@
         {
           "title": "Car Park",
           "items": [
-            "The Tea Pod Crêpes & waffles\n(from 2.15 am, Ve and GF options)",
             "Guerrilla Kitchen Bao buns\n(until 1am, Ve options)",
+            "The Tea Pod Crêpes & waffles\n(from 2.15 am, Ve and GF options)",
             "Churros\n(until 3am, Ve options)"
           ]
         }
@@ -309,7 +319,7 @@
             "Granny Ma's Bubble Tea - Non alcoholic",
             "Gourmet cake co. Cupcakes",
             "Jack's Gelato",
-            "Sticks n' Sushi\n(Ve and GF on request)",
+            "Sticks 'n' Sushi\n(Ve and GF on request)",
             "Mademoiselle Macarons"
           ]
         }

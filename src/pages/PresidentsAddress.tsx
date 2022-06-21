@@ -12,7 +12,7 @@ const PresidentsAddress = () => (
     <ProgramHeading img={president} mb={3} />
     {program.address.map((text, i) => {
       if (text === "") {
-        return <Box mb={2} key={i} />;
+        return <Typography pb={2}> </Typography>;
       } else {
         return (
           <Typography

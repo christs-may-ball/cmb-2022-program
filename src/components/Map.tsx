@@ -41,14 +41,14 @@ const mapMarkers = [
 
 const toiletMarkers = [
   { position: ["85%", "75.5%"] },
-  { position: ["20%", "16%"] },
+  { position: ["18%", "18%"] },
   { position: ["15%", "45%"] }
 ];
 
 const sjaMarker = { position: ["20%", "45%"] };
 
 const Map = () => (
-  <Box mx="auto" flex={1} minHeight={0}>
+  <Box mx="auto" flex={1} minHeight={0} mr={2}>
     <Box
       display="flex"
       justifyContent="center"
