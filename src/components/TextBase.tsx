@@ -7,7 +7,7 @@ import Stone from "./Stone"
 
 const TextBase = ({ children }: any) => (
   <Box
-    height="100%"
+    flex={1}
     width="100%"
     sx={{
       backgroundImage: `url(${textBackground})`,

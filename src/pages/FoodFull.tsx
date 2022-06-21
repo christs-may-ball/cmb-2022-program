@@ -35,6 +35,8 @@ const FoodFull = () => (
           <Box
             height="100%"
             width="100%"
+            maxWidth={500}
+            mx="auto"
             py={5}
             px={{
               xs: 2,

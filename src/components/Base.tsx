@@ -18,6 +18,8 @@ const Base = ({ children, ...props }: any) => (
       overflow="hidden"
       height="100%"
       width="100%"
+      maxWidth={500}
+      mx="auto"
       {...props}
     >
       {children}
