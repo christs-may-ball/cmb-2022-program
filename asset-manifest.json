@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.25a26cc8.css",
-    "main.js": "/static/js/main.a0722bf0.js",
+    "main.js": "/static/js/main.d5f8bb20.js",
     "static/media/text-background.jpg": "/static/media/text-background.281ab28ea08c437c8ecb.jpg",
     "static/media/solid-stone.png": "/static/media/solid-stone.79eb8bcbcbc5967f3b7b.png",
     "static/media/president-out.png": "/static/media/president-out.87371aa782ec60f9c79f.png",
@@ -22,10 +22,10 @@
     "static/media/classico.ttf": "/static/media/classico.bb6fb99af19a8c2e5eed.ttf",
     "index.html": "/index.html",
     "main.25a26cc8.css.map": "/static/css/main.25a26cc8.css.map",
-    "main.a0722bf0.js.map": "/static/js/main.a0722bf0.js.map"
+    "main.d5f8bb20.js.map": "/static/js/main.d5f8bb20.js.map"
   },
   "entrypoints": [
     "static/css/main.25a26cc8.css",
-    "static/js/main.a0722bf0.js"
+    "static/js/main.d5f8bb20.js"
   ]
 }
