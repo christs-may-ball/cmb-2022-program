@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-import { LunchDining, Newspaper } from "@mui/icons-material"
+import { Article, LunchDining, Newspaper } from "@mui/icons-material"
 import {
   Box,
   List,
@@ -15,7 +15,7 @@ import { Event } from "../types/new"
 
 const body = [
   {
-    label: "President's Address",
+    label: "President's address",
     link: "/presidents-address",
     icon: <Newspaper />,
     target: "_self"
@@ -24,6 +24,12 @@ const body = [
     label: "Food allergy details",
     link: process.env.PUBLIC_URL + "/allergen-charts.pdf",
     icon: <LunchDining />,
+    target: "_blank"
+  },
+  {
+    label: "Plain text program",
+    link: process.env.PUBLIC_URL + "/programme.pdf",
+    icon: <Article />,
     target: "_blank"
   }
 ];
