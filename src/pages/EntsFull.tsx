@@ -8,7 +8,7 @@ import { solidStone, textBackground } from "../assets/img"
 import { Text } from "../components"
 
 const max = 9;
-const [cellHeight, cellWidth] = [52, 110];
+const [cellHeight, cellWidth] = [55, 110];
 const entsFull = program.entsFull;
 const locations = entsFull.map(({ location }) => location);
 
@@ -78,6 +78,8 @@ const EntsFull = () => (
   >
     <Box display="flex" alignItems="center" height="100%">
       <Box
+        pt={2}
+        pb={3}
         px={{
           xs: 2,
           sm: 4
@@ -87,7 +89,10 @@ const EntsFull = () => (
         boxSizing="border-box"
         display="flex"
         justifyContent="start"
-        alignItems="center"
+        alignItems="start"
+        sx={{
+          overflowY: "scroll"
+        }}
       >
         <Box display="flex" flexDirection="column">
           <Cell pr={1} />
