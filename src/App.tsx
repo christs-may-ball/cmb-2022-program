@@ -13,6 +13,7 @@ import {
   FirstCourt,
   FoodFull,
   FormalHall,
+  HealthSafety,
   Home,
   LloydRoom,
   MulberryTree,
@@ -46,6 +47,7 @@ const App = () => {
             <Route path="/ocr" element={<Ocr />} />
             <Route path="/ents" element={<EntsFull />} />
             <Route path="/food-and-drinks" element={<FoodFull />} />
+            <Route path="/health-and-safety" element={<HealthSafety />} />
           </Routes>
           <BottomBar />
         </Base>

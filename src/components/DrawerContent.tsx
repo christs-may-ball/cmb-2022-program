@@ -1,7 +1,12 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-import { Article, LunchDining, Newspaper } from "@mui/icons-material"
+import {
+  Article,
+  HealthAndSafety,
+  LunchDining,
+  Newspaper
+} from "@mui/icons-material"
 import {
   Box,
   List,
@@ -18,6 +23,12 @@ const body = [
     label: "President's address",
     link: "/presidents-address",
     icon: <Newspaper />,
+    target: "_self"
+  },
+  {
+    label: "Health and safety",
+    link: "/health-and-safety",
+    icon: <HealthAndSafety />,
     target: "_self"
   },
   {

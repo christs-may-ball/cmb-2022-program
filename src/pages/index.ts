@@ -6,6 +6,7 @@ import FellowsGarden from "./FellowsGarden"
 import FirstCourt from "./FirstCourt"
 import FoodFull from "./FoodFull"
 import FormalHall from "./FormalHall"
+import HealthSafety from "./HealthSafety"
 import Home from "./Home"
 import LloydRoom from "./LloydRoom"
 import MulberryTree from "./MulberryTree"
@@ -31,5 +32,6 @@ export {
   FormalHall,
   Ocr,
   EntsFull,
-  FoodFull
+  FoodFull,
+  HealthSafety
 };
