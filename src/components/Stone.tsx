@@ -8,7 +8,8 @@ const Stone = ({ children }: any) => (
   <Box
     height="100%"
     width="100%"
-    maxHeight={600}
+    maxHeight={630}
+    maxWidth={500}
     py={5}
     px={{
       xs: 4,

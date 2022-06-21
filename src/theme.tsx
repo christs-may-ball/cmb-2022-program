@@ -3,15 +3,17 @@ import { createTheme, PaletteColorOptions } from "@mui/material/styles"
 declare module "@mui/material/styles" {
   interface PaletteOptions {
     tertiary: PaletteColorOptions;
+    quaternary: PaletteColorOptions;
   }
 }
 
-const defaultTheme = createTheme();
+let defaultTheme = createTheme();
 const theme = createTheme({
   palette: {
     primary: {
       main: "#004643",
-      contrastText: "#f3efde"
+      contrastText: "#f3efde",
+      dark: "#002925"
     },
     secondary: {
       main: "#7daaa2",
@@ -23,6 +25,13 @@ const theme = createTheme({
         contrastText: "#000"
       },
       name: "tertiary"
+    }),
+    quaternary: defaultTheme.palette.augmentColor({
+      color: {
+        main: "#b34025",
+        contrastText: "#000"
+      },
+      name: "quaternary"
     })
   },
   breakpoints: {

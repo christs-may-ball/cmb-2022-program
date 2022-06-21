@@ -4,7 +4,7 @@ import { LocationOn } from "@mui/icons-material"
 import { IconButton } from "@mui/material"
 
 const MapMarker = (props: any) => (
-  <IconButton color="warning" {...props}>
+  <IconButton color="quaternary" {...props}>
     <LocationOn fontSize="large" />
   </IconButton>
 );

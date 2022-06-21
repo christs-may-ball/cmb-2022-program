@@ -5,7 +5,7 @@ import { Box, Container } from "@mui/material"
 const Base = ({ children, ...props }: any) => (
   <Container
     sx={{
-      height: "100vh",
+      height: "100%",
       width: "100vw"
     }}
     disableGutters

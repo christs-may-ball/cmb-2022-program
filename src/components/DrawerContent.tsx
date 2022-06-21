@@ -1,10 +1,9 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-import { Inbox, Mail, Newspaper } from "@mui/icons-material"
+import { Newspaper, TheaterComedy } from "@mui/icons-material"
 import {
   Box,
-  Divider,
   List,
   ListItem,
   ListItemButton,
@@ -14,7 +13,10 @@ import {
 
 import { Event } from "../types/new"
 
-const body = [{ label: "President's Address", link: "/presidents-address" }];
+const body = [
+  { label: "President's Address", link: "/presidents-address" },
+  { label: "Ents", link: "/ents" }
+];
 
 const DrawerContent = ({
   toggle
@@ -33,22 +35,9 @@ const DrawerContent = ({
         <ListItem key={label} disablePadding>
           <ListItemButton component={Link} to={link}>
             <ListItemIcon>
-              {index % 2 === 0 ? <Newspaper /> : <Mail />}
+              {index % 2 === 0 ? <Newspaper /> : <TheaterComedy />}
             </ListItemIcon>
             <ListItemText primary={label} />
-          </ListItemButton>
-        </ListItem>
-      ))}
-    </List>
-    <Divider />
-    <List>
-      {["All mail", "Trash", "Spam"].map((text, index) => (
-        <ListItem key={text} disablePadding>
-          <ListItemButton>
-            <ListItemIcon>
-              {index % 2 === 0 ? <Inbox /> : <Mail />}
-            </ListItemIcon>
-            <ListItemText primary={text} />
           </ListItemButton>
         </ListItem>
       ))}

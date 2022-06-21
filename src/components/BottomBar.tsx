@@ -1,7 +1,12 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-import { Favorite, LocationOn, MoreVert, Restore } from "@mui/icons-material"
+import {
+  LocalDining,
+  LocationOn,
+  MoreVert,
+  TheaterComedy
+} from "@mui/icons-material"
 import {
   BottomNavigation,
   BottomNavigationAction,
@@ -13,7 +18,7 @@ import { Event } from "../types/new"
 import DrawerContent from "./DrawerContent"
 
 const BottomBar = () => {
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState(1);
   const [open, setOpen] = React.useState(false);
 
   const toggleDrawer = (open: boolean) => (event: Event) => {
@@ -29,20 +34,34 @@ const BottomBar = () => {
 
   return (
     <>
-      <Box width="100%" bgcolor="tertiary.main">
+      <Box width="100%">
         <BottomNavigation
           showLabels
           value={value}
           onChange={(event, newValue) => {
             setValue(newValue);
           }}
+          sx={{
+            backgroundColor: "tertiary.main"
+          }}
         >
-          <BottomNavigationAction label="Favorites" icon={<Favorite />} />
+          <BottomNavigationAction
+            label="Ents"
+            icon={<TheaterComedy />}
+            component={Link}
+            to="/ents"
+          />
           <BottomNavigationAction
             label="Map"
             icon={<LocationOn />}
             component={Link}
             to="/"
+          />
+          <BottomNavigationAction
+            label="Food"
+            icon={<LocalDining />}
+            component={Link}
+            to="/food-and-drinks"
           />
           <BottomNavigationAction
             label="More"

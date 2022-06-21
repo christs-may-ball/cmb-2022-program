@@ -1,10 +1,12 @@
 import React from "react"
 
-import { Base, BottomBar, LinkButton, Map } from "../components"
+import { Box } from "@mui/material"
+
+import { Map } from "../components"
 
 const Home = () => (
   <>
-    <div style={{ height: 100 }}></div>
+    <Box height={60} width="100%" bgcolor="tertiary.main"></Box>
     <Map></Map>
   </>
 );
