@@ -6,25 +6,44 @@ import { program } from "../assets/data"
 import { ocr } from "../assets/img"
 import { ProgramHeading, Text, TextBase } from "../components"
 
-const { heading, schedule } = program.ocr;
+const body = program.ocr;
 
-const Ocr = () => (
-  <TextBase>
-    <ProgramHeading img={ocr} mb={1} />
-    <Text variant="body1" textAlign="center" mb={2}>
-      {heading}
-    </Text>
-    <Box display="flex" flexDirection="column">
-      {schedule.map(({ time, name }, i) => (
-        <Box pr={1} mb={3} display="flex" key={i}>
-          <Text variant="h5" fontSize={24}>
-            {time}
-          </Text>
-          <Text variant="h5" fontSize={24} ml={3}>
+const render = ({ name, description, time }: any) => {
+  if (time) {
+    return (
+      <>
+        <Box display="flex">
+          <Text variant="h5">{time}</Text>
+          <Text variant="h5" ml={3}>
             {name}
           </Text>
         </Box>
-      ))}
+        <Text variant="body2">{description}</Text>
+      </>
+    );
+  } else {
+    return <Text variant="h5">{name}</Text>;
+  }
+};
+
+const Ocr = () => (
+  <TextBase>
+    <Box display="flex" flexDirection="column" height="100%">
+      <ProgramHeading img={ocr} mb={3} maxWidth={200} />
+      <Box
+        flex={1}
+        pb={6}
+        display="flex"
+        flexDirection="column"
+        justifyContent="center"
+        textAlign="center"
+      >
+        {body.map((item, i) => (
+          <Box pr={1} mb={5} key={i}>
+            {render(item)}
+          </Box>
+        ))}
+      </Box>
     </Box>
   </TextBase>
 );

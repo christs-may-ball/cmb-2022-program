@@ -101,7 +101,7 @@
     { "name": "The Tea Pod\nCrêpes & waffles", "time": "from 02:15am" },
     { "name": "Churros", "time": "until 03:00am" }
   ],
-  "ocr": {
+  "buttery": {
     "heading": "Selection of wines from Cambridge Wine Merchants",
     "schedule": [
       { "time": "23:15pm", "name": "Impronauts" },
@@ -112,7 +112,7 @@
       { "time": "04:00am", "name": "Karaoke" }
     ]
   },
-  "buttery": [
+  "ocr": [
     { "name": "Chocolate Fountain" },
     {
       "time": "09:00pm",
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "location": "OCR",
+      "location": "Buttery",
       "ents": [
         { "name": "Impronauts", "from": 2.7, "to": 3.5, "fontSize": 12 },
         {
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "location": "Buttery",
+      "location": "OCR",
       "ents": [
         { "name": "Photobooth", "from": 0.5, "to": 4.5, "fontSize": 38 },
         { "name": "Life Drawing", "from": 6, "to": 8, "fontSize": 28 }
