@@ -5,6 +5,7 @@ import styled from "@emotion/styled"
 import { Box } from "@mui/material"
 
 import { map } from "../assets/img"
+import CloakroomMarker from "./CloakroomMarker"
 import MapMarker from "./MapMarker"
 import SjaMarker from "./SjaMarker"
 import ToiletMarker from "./ToiletMarker"
@@ -20,6 +21,11 @@ const AbsoluteToiletMarker = styled(ToiletMarker)(({ theme }) => ({
 }));
 
 const AbsoluteSjaMarker = styled(SjaMarker)(({ theme }) => ({
+  position: "absolute",
+  transform: "translate(-50%, -100%)"
+}));
+
+const AbsoluteCloakroomMarker = styled(CloakroomMarker)(({ theme }) => ({
   position: "absolute",
   transform: "translate(-50%, -100%)"
 }));
@@ -40,12 +46,14 @@ const mapMarkers = [
 ];
 
 const toiletMarkers = [
-  { position: ["85%", "75.5%"] },
-  { position: ["18%", "18%"] },
-  { position: ["15%", "45%"] }
+  { position: ["85%", "75.5%"], label: "Library Bathrooms" },
+  { position: ["18%", "18%"], label: "Z Bathrooms" },
+  { position: ["15%", "45%"], label: "Yusuf Hamied Centre Bathrooms" }
 ];
 
 const sjaMarker = { position: ["20%", "45%"] };
+
+const cloakroomMarker = { position: ["94%", "68%"] };
 
 const Map = () => (
   <Box mx="auto" flex={1} minHeight={0}>
@@ -70,11 +78,21 @@ const Map = () => (
               key={i}
             />
           ))}
-          {toiletMarkers.map(({ position: [top, left] }, i) => (
-            <AbsoluteToiletMarker sx={{ top: top, left: left }} key={i} />
+          {toiletMarkers.map(({ position: [top, left], label }, i) => (
+            <AbsoluteToiletMarker
+              sx={{ top: top, left: left }}
+              key={i}
+              label={label}
+            />
           ))}
           <AbsoluteSjaMarker
             sx={{ top: sjaMarker.position[0], left: sjaMarker.position[1] }}
+          />
+          <AbsoluteCloakroomMarker
+            sx={{
+              top: cloakroomMarker.position[0],
+              left: cloakroomMarker.position[1]
+            }}
           />
         </Box>
         <img

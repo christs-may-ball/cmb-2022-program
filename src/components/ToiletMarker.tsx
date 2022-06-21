@@ -1,12 +1,13 @@
 import React from "react"
 
 import { Wc } from "@mui/icons-material"
-import { IconButton } from "@mui/material"
 
-const ToiletMarker = (props: any) => (
-  <IconButton color="quaternary" {...props}>
+import MarkerToolTip from "./MarkerToolTip"
+
+const ToiletMarker = ({ label, ...props }: any) => (
+  <MarkerToolTip label={label} {...props}>
     <Wc sx={{ fontSize: 32 }} />
-  </IconButton>
+  </MarkerToolTip>
 );
 
 export default ToiletMarker;

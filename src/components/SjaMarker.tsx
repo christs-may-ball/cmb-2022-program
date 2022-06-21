@@ -1,12 +1,13 @@
 import React from "react"
 
 import { MedicalServices } from "@mui/icons-material"
-import { IconButton } from "@mui/material"
+
+import MarkerToolTip from "./MarkerToolTip"
 
 const SjaMarker = (props: any) => (
-  <IconButton color="quaternary" {...props}>
+  <MarkerToolTip label="St John Ambulence" {...props}>
     <MedicalServices sx={{ fontSize: 30 }} />
-  </IconButton>
+  </MarkerToolTip>
 );
 
 export default SjaMarker;
